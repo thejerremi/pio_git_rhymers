@@ -4,8 +4,9 @@ public class DefaultCountingOutRhymer {
 
     public static final int TWELVE = 12;
     public static final int NEGATIVE_ONE = -1;
+    public static final int NEGATIVE_ONEE = -1;
     public static final int ELEVEN = 11;
-    public int total = NEGATIVE_ONE;
+    public int total = -1;
     private final int[] NUMBERS = new int[TWELVE];
 
     public void countIn(int in) {
@@ -29,7 +30,7 @@ public class DefaultCountingOutRhymer {
 
     public int countOut() {
         if (callCheck())
-            return NEGATIVE_ONE;
+            return NEGATIVE_ONEE;
         return NUMBERS[total--];
     }
 

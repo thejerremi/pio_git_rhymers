@@ -1,11 +1,6 @@
 package edu.kis.vh.nursery;
 
 public class DefaultCountingOutRhymer {
-<<<<<<< HEAD
-
-    private int[] NUMBERS = new int[12];
-=======
->>>>>>> 0d81d82 (4.1 poprawa nazw klas)
 
     public int total = -1;
     private int[] NUMBERS = new int[12];

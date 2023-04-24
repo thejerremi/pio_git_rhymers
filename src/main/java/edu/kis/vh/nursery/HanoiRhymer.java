@@ -2,14 +2,14 @@ package edu.kis.vh.nursery;
 
 public class HanoiRhymer extends DefaultCountingOutRhymer {
 
-    public static final int ZERO = 0;
+    protected static final int ZERO = 0;
     int totalRejected = ZERO;
 
-    public int reportRejected() {
+    protected int reportRejected() {
         return totalRejected;
     }
     @Override
-    public void countIn(int in) {
+    protected void countIn(int in) {
         if (!callCheck() && in > peekaboo())
             totalRejected++;
         else

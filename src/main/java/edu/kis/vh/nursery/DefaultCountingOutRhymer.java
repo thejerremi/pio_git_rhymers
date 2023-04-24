@@ -6,6 +6,31 @@ public class DefaultCountingOutRhymer {
     private static final int NEGATIVE_ONE = -1;
     private static final int NEGATIVE_ONEE = -1;
     private static final int ELEVEN = 11;
+
+    public static int getTWELVE() {
+        return TWELVE;
+    }
+
+    public static int getNegativeOne() {
+        return NEGATIVE_ONE;
+    }
+
+    public static int getNegativeOnee() {
+        return NEGATIVE_ONEE;
+    }
+
+    public static int getELEVEN() {
+        return ELEVEN;
+    }
+
+    public int getTotal() {
+        return total;
+    }
+
+    public void setTotal(int total) {
+        this.total = total;
+    }
+
     private int total = -1;
     private final int[] NUMBERS = new int[TWELVE];
 
@@ -34,4 +59,7 @@ public class DefaultCountingOutRhymer {
         return NUMBERS[total--];
     }
 
+    public int[] getNUMBERS() {
+        return NUMBERS;
+    }
 }

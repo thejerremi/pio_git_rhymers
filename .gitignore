@@ -1,0 +1,22 @@
+# ignoruj pliki wygenerowane przez IntelliJ
+
+.idea/
+*.iml
+out/
+
+# ignoruj pliki konfiguracyjne
+*.properties
+*.xml
+
+# ignoruj pliki tymczasowe
+*.tmp
+*.log
+
+# ignoruj pliki kompilacji
+*.class
+target/
+bin/
+
+# ignoruj pliki źródłowe, które nie są potrzebne w repozytorium
+src/main/resources/
+src/test/
